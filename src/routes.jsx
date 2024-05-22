@@ -9,7 +9,8 @@ export function AppRoutes() {
     <Routes>
       <Route path="/" element={<MainPage />} />
 
-      <Route path="repositories" element={<RepositoriesPage />} />
+      {/* //* parámetro flexível, url */}
+      <Route path="/:login/repositories" element={<RepositoriesPage />} />
     </Routes>
   );
 }
