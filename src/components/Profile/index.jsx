@@ -16,7 +16,7 @@ function Profile({ user }) {
       <Inner>
         <Data>
           <MdGroup size={20}/>
-          {user.following}&nbsp;<i>Seguidores</i>&nbsp;&middot;&nbsp;{user.followers}&nbsp;<i>Seguindo</i>
+          {user.following}&nbsp;<i>Seguindo</i>&nbsp;&middot;&nbsp;{user.followers}&nbsp;<i>Seguidores</i>
           </Data>
           {/* //? validação se o campo existe */}
           { user.company && (

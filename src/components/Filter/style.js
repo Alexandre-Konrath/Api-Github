@@ -30,6 +30,7 @@ export const Selector = styled.button`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: none;
 
   border-radius: 0px 20px 20px 0px;
   padding: 0 1rem;

@@ -8,7 +8,7 @@ export const Container = styled.div`
   align-items: center;
   text-align: center;
 
-  min-height: 100vh;
+  min-height: 98vh;
   padding: 0 2rem;
 `;
 
