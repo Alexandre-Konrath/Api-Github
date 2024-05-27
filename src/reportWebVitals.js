@@ -1,4 +1,4 @@
-//? serve para medir e reportar métricas de performance da web
+// ? serve para medir e reportar métricas de performance da web
 
 const reportWebVitals = onPerfEntry => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
