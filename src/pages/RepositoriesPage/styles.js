@@ -1,11 +1,17 @@
 import styled from 'styled-components';
 
+//! tela de carregamento
 export const Loading = styled.div`
   min-height: 100vh;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  h1 {
+    font-size: 2rem;
+    color: ${(props) => props.theme.colors.white};
+  }
 `;
 
 export const Container = styled.main`
@@ -36,7 +42,7 @@ export const Main = styled.section`
   flex: 1;
   padding: 40px;
 
-  overflow-y: hidden;
+  overflow-y: auto;
   background: ${(props) => props.theme.colors.container};
 
   // tablet
