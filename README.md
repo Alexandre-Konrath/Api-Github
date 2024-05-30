@@ -24,7 +24,7 @@
  
  <br /> 
  
-| script | Esxplicação |
+| script | Explicação |
 |--------|-------------|  
 | ***"json-server"*** | Comando para executar o json-server. |
 | ***--watch db.json*** | Especifica o arquivo db.json que o json-server irá observar. Esse arquivo contém os dados que a API irá expor. |
